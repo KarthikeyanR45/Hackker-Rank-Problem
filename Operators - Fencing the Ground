@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int len=sc.nextInt();
+        int bre=sc.nextInt();
+        int a=len*bre;
+        int p=2*(len+bre);
+        
+        System.out.println("The required length is "+p+" m");
+         System.out.println("The required area of carpet is "+a+" sqm");
+        
+        
+    }
+}
