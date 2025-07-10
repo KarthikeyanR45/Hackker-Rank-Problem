@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner a=new Scanner(System.in);
+        int num1=a.nextInt();
+        int num2=a.nextInt();
+        int s=num1%num2;
+        int r=num1/num2;
+        System.out.println("The number of friends in each team is "+r+" and left out is "+s);
+
+    }
+}
