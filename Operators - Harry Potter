@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner a=new Scanner(System.in);
+        String num=a.next();
+        if(num.startsWith("-") || num.startsWith("+") ){
+            int f=num.charAt(1)-'0';
+            int len=num.length();
+            int l=num.charAt(len-1)-'0';
+            System.out.println(l+f);
+        }
+        else{
+            int f=num.charAt(0)-'0';
+            int len=num.length();
+            int l=num.charAt(len-1)-'0';
+            System.out.println(l+f);
+
+
+        }
+    }
+}
